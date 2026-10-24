@@ -1,0 +1,20 @@
+{
+  "name": "blog-api-reference",
+  "version": "1.0.0",
+  "description": "Reference solution for the junior backend test (Parse Server + Express + Cloud Code). Study material only.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node --test spec/test.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.0",
+    "express": "^5.0.0",
+    "parse": "^8.6.0",
+    "parse-server": "^9.0.0"
+  },
+  "devDependencies": {
+    "mongodb-memory-server": "^10.0.0"
+  },
+  "engines": { "node": ">=20.19.0" }
+}
